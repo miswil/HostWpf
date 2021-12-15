@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UserSecretsId>dotnet-WorkerService1-D1392D9A-6CEF-404D-93F1-951E6E65E414</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebApplication1\WebApplication1.csproj" />
+    <ProjectReference Include="..\WpfLibrary1\WpfLibrary1.csproj" />
+  </ItemGroup>
+</Project>
